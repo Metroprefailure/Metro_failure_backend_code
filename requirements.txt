@@ -27,3 +27,15 @@ typing_extensions==4.13.2
 tzdata==2025.2
 urllib3==2.4.0
 uvicorn==0.34.2
+fastapi
+uvicorn[standard] # Includes standard dependencies like websockets
+gunicorn
+pandas
+numpy
+scipy
+pydantic
+requests
+# Add other dependencies like scikit-learn, joblib if used in predict.py
+scikit-learn
+joblib
+
